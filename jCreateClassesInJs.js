@@ -70,7 +70,8 @@ train5.lightsStatus(); // Lights on? true
 
 highSpeed1.toggleLights(); // Lights on? true, Lights are 100% operational.
 
-
+train5.getPrototype(); // {constructor: ƒ, toggleLights: ƒ, lightsStatus: ƒ, getSelf: ƒ, getPrototype: ƒ}
+highSpeed1.getPrototype(); // Train {constructor: ƒ, toggleHighSpeed: ƒ, toggleLights: ƒ}
 
 
 
